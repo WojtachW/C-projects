@@ -2,13 +2,13 @@
 #include <windows.h>
 using namespace std;
 string tab[9]= {" "," "," "," "," "," "," "," "," "};
-string tabl[9]= {" "," "," "," "," "," "," "," "," "};
+
 string input;
 bool can[9] = {1,1,1,1,1,1,1,1,1};
 bool cross[2] = {1,0};
 void spawnmap()
 {
-	cout << tab[0] << "|" <<tab[1]<< "|" << 			tab[2] << endl << "-----" << endl << tab[3] 	<< "|" << tab[4] << "|" << tab[5] <<endl << "-----"<<endl <<tab[6] << "|" << tab[7] << "|" << 	tab[8] << endl;
+	cout << tab[0] << "|" <<tab[1]<< "|" << tab[2] << endl << "-----" << endl << tab[3]<< "|" << tab[4] << "|" << tab[5] <<endl << "-----"<<endl <<tab[6] << "|" << tab[7] << "|" <<tab[8] << endl;
 }
 void play()
 {
